@@ -1,0 +1,15 @@
+﻿#SafeSchoolIncidents_wrapper, #FaceIncidents_wrapper, #EquityIncidents_wrapper {
+    position: relative
+}
+
+    /*div#SafeSchoolIncidents_wrapper > div.row:first-child > div, div#FaceIncidents_wrapper > div.row:first-child > div, div#EquityIncidents_wrapper > div.row:first-child > div {
+            position: absolute;
+            right: 0;
+            top: -30px;
+            text-align: right;
+        }*/
+
+    #SafeSchoolIncidents_wrapper select.input-sm, #FaceIncidents_wrapper select.input-sm, #EquityIncidents_wrapper select.input-sm {
+        height: 28px;
+        line-height: 20px;
+    }

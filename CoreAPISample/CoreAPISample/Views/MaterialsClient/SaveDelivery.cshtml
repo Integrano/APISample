@@ -1,0 +1,304 @@
+﻿
+@{
+    ViewData["Title"] = "Save Delivery";
+}
+
+@model CoreAPISample.API.Models.ManufacturerViewModel
+@using CoreAPISample.API.Resources
+
+<!doctype html>
+<html xml:lang="en" lang="en">
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@*@IncidentResource.SJUSDTellSomeone*@</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="~/favicon.ico">
+    <!-- ===== SP Scripts and CSS  =========================================================================================== -->
+    <link rel="stylesheet" type="text/css" href="~/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="~/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="~/css/jquery-ui.css">
+    <link href="~/CSS/datepicker.css" rel="stylesheet" />
+    <link href="~/CSS/jquery.timeentry.css" rel="stylesheet" />
+    <script src="~/Scripts/jquery-3.2.1.js"></script>
+    <script src="~/Scripts/jquery-ui-1.12.1.js"></script>
+    <script src="~/Scripts/bootstrap.js"></script>
+    <script src="~/Scripts/jquery.validate.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.js"></script>
+    <script src="~/Scripts/jquery.maskedinput.js"></script>
+    <script src="~/Scripts/inputmask.js"></script>
+    <script src="~/Scripts/jquery.inputmask.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="~/css/jquery.smartmenus.bootstrap.css">
+
+    <script src="~/Scripts/jquery.smartmenus.js"></script>
+    <script src="~/Scripts/jquery.smartmenus.bootstrap.js"></script>
+    <script src="~/Scripts/jquery.dataTables.min.js"></script>
+    <script src="~/Scripts/jquery.timeentry.js"></script>
+    <environment include="Development">
+        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+        <link rel="stylesheet" href="~/css/site.css" />
+    </environment>
+    <environment exclude="Development">
+        <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/css/bootstrap.min.css"
+              asp-fallback-href="~/lib/bootstrap/dist/css/bootstrap.min.css"
+              asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute" />
+        <link rel="stylesheet" href="~/css/site.min.css" asp-append-version="true" />
+    </environment>
+</head>
+<body data-gr-c-s-loaded="true" class=" ms-backgroundImage">
+    <!-- ===== Main Scrolling Body Starts Here =============================================================================== -->
+    <div id="s4-workspace" class="ms-core-overlay">
+        <div id="s4-bodyContainer">
+            <!-- Top Navigation Control -->
+            <div id="contentRow">
+                <!-- ===== Main Content ========================================================================================== -->
+                <div id="contentBox" aria-live="polite" aria-relevant="all" role="main">
+                    <div id="notificationArea" class="ms-notif-box"></div>
+                    <div id="DeltaPageStatusBar">
+                        <div id="pageStatusBar" class="ms-status-blue" style="display: none;"></div>
+                    </div>
+
+                    <div class="container body-content">
+                        <div class="row">
+                            <div class="ms-clear"></div>
+                            <!-- Main Content -->
+                            <h1 id="skip-link" tabindex="-1"><span class="sr-only">IRIS</span></h1>
+                            <div id="mainContent" class="clearfix">
+                                <div class="container ">
+                                    <div class="row">
+                                        <div class="clearfix full-content-box">
+                                            <div class="panel panel-info">
+                                                <div class="panel-body">
+                                                    <div id="Tellsomeoneform">
+                                                        <div class="solid">
+                                                            <div class="form-group top-description">
+                                                                @Html.Raw(AppResource.FormFunctionDescription)
+                                                            </div>
+                                                        </div>
+                                                        <div id="successMessageTest" hidden style="background-color:lightgreen;color:white;text-align:center">
+                                                            <br />
+                                                            <span>@AppResource.SaveSuccessMessageText</span>
+                                                            <br />
+                                                        </div>
+                                                        <div id="errorMessage">
+                                                            @if (TempData[AppResource.ErrorMessage] != null)
+                                                            {<br />
+                                                                <input type="hidden" value="@TempData[AppResource.ErrorMessage]" id="test_hidden" />
+                                                            }
+                                                        </div>
+                                                        <br />
+                                                        <div class="form-horizontal">
+                                                            @using (Html.BeginForm(AppResource.SaveManufacturerAction, AppResource.MaterialsClientController, FormMethod.Post, new { enctype = "multipart/form-data" }))
+                                                            {
+                                                                @Html.ValidationSummary(true)
+                                                                <div id="IncidentReportingForm">
+
+                                                                </div>
+                                                                <div class="form-group">
+                                                                    <div class="control-label col-md-3">
+                                                                        @Html.LabelFor(m => Model.ManufacturerName)
+                                                                    </div>
+                                                                    <div class="col-md-9">
+                                                                        @Html.DropDownList("ManufacturerName", new List<SelectListItem>
+                                                                        {
+                                                                             new SelectListItem{ Text="-- Select --", Value = "" , Selected=true},
+                                                                            new SelectListItem{ Text="ManufacturerName 1", Value = "ManufacturerName 1" },
+                                                                            new SelectListItem{ Text="ManufacturerName 2", Value = "ManufacturerName 2"}
+                                                                        }, new { @id = "ManufacturerName", @class = "ignore form-control" })
+                                                                        @Html.ValidationMessageFor(model => model.ManufacturerName, "", new { @class = "ignore field-validation-valid text-danger" })
+                                                                    </div>
+                                                                </div>
+                                                                @*@Html.DropDownList("MaterialItemss", new List<SelectListItem>
+                   {
+                   }, new { @multiple = "multiple", @id = "MaterialItemss", @class = "ignore form-control" })
+
+                @Html.DropDownList("MaterialItemSelect", new List<SelectListItem>
+                  {
+                  }, new { @multiple = "multiple", @id = "MaterialItemSelect", @class = "ignore form-control" })
+
+
+                @Html.ValidationMessageFor(model => model.MaterialItems, "", new { @class = "ignore field-validation-valid text-danger" })
+
+                @Html.ListBoxFor(x => x.SelectedItemIds, new MultiSelectList(Model.MaterialItemsList, "ItemId", "SerialNumber"))*@
+
+                                                                @*<select id="MaterialItems" name="location" placeholder="Anycity"></select>*@
+
+                                                                <div class="form-group">
+                                                                    <div class="col-md-offset-3 col-md-9">
+                                                                        <button id="IncidentSave" type="button" onclick="saveDelivery()" class="btn btn-primary btn-min-width100 ignore" title="Click to save incident" value="Submit">
+                                                                            @AppResource.SaveDeliveryButtonText
+                                                                        </button>&nbsp;
+                                                                        <button id="Save" type="button" onclick="saveDeliveryDetails()" class="btn btn-primary btn-min-width100 ignore" title="Click to save incident" value="Submit">
+                                                                            @AppResource.SaveSerializedDeliveryButtonText
+                                                                        </button>&nbsp;
+                                                                        <button id="Clear" type="button" class="btn btn-primary btn-min-width100 ignore" title="Click to clear incident" value="Cancel">
+                                                                            @AppResource.CancelButtonText
+                                                                        </button>
+                                                                    </div>
+                                                                </div>
+                                                            }
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Main Content End -->
+                        </div>
+                    </div>
+                </div>
+
+               
+            </div>
+        </div>
+    </div>
+
+    <ul id="ui-id-1" tabindex="0" class="ui-menu ui-widget ui-widget-content ui-autocomplete ui-front" style="display: none;"></ul>
+    <div role="status" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div>
+
+    <script>
+
+        var saveDeliveryURL = '@Url.Action(AppResource.SaveManufacturerAction, AppResource.MaterialsClientController)';
+
+         var saveDeliveryDetailsURL = '@Url.Action(AppResource.SaveDeliveryDetailsAction, AppResource.MaterialsClientController)';
+
+        $(document).ready(function () {
+
+            $('#ManufacturerName').change(function () {
+                     $('#location').text() == " ";
+                if ($('#ManufacturerName option:selected').text() == "ManufacturerName 1")
+                {
+                    $('#MaterialItemss').append(
+                        '<option value="Item 11">Item 11</option><option value="Item 12">Item 12</option>')
+
+                     $('#MaterialItemSelect').append(
+                         '<option value="Item 11">MaterialItemSelect 11</option><option value="Item 12">MaterialItemSelect 12</option>')
+
+                    $('#SelectedItemIds').append(
+                         '<option value="11">MaterialItemSelect 11</option><option value="12">MaterialItemSelect 12</option>') 
+                }
+                else if ($('#ManufacturerName option:selected').text == "ManufacturerName 2")
+                {
+                    $('#MaterialItemss').append('<option value="Item 21">Item 21</option><option value="Item 22">Item 22</option><option value="Item 23">Item 23</option>')
+                }  
+            });
+
+
+        });
+
+        function saveDelivery() {
+            var model = {
+                Id: 1,
+                ManufacturerName: "Manufacturer Name 555",
+                MaterialItems: [
+                    {
+                        ItemId: 1,
+                        Name: "Name",
+                        SerialNumber: "SerialNumber 555",
+                        Quantity: 30
+                    },
+                    {
+                        ItemId: 1,
+                        Name: "Name",
+                        SerialNumber: "SerialNumber 555 888",
+                        Quantity: 50
+                    },
+                    {
+                        ItemId: 2,
+                        Name: "Name2233",
+                        SerialNumber: "SerialNumber 33",
+                        Quantity: 60
+                    }
+                ]
+            }
+
+            var dataWithAntiforgeryToken = $.extend(model, { '__RequestVerificationToken': "" });
+            $.ajax({
+                type: "POST",
+                url: saveDeliveryURL,
+                data: dataWithAntiforgeryToken,
+                success: function (data) {
+                    if (data != null) {
+                        //alert("success");
+                        $("#successMessageTest").show();
+                    }
+                    else {
+                        alert("Error");
+                        $("#successMessageTest").hide();
+                    }
+                },
+                error: function (errormessage) {
+                    alert(errormessage);
+                }
+            });
+        }
+
+        function saveDeliveryDetails() {
+            var model = {
+                Id: 1,
+                ManufacturerName: "Manufacturer Name 555",
+                MaterialItems: [
+                    {
+                        ItemId: 1,
+                        Name: "Name",
+                        SerialNumber: "SerialNumber 555",
+                        Quantity: 30,
+                        ForecastDate:"2019-11-21 12:52:45.290"
+                    },
+                    {
+                        ItemId: 1,
+                        Name: "Name",
+                        SerialNumber: "SerialNumber 555 888",
+                        Quantity: 50,
+                        ForecastDate:"2019-11-21 12:52:45.290"
+                    },
+                    {
+                        ItemId: 2,
+                        Name: "Name2233",
+                        SerialNumber: "SerialNumber 33",
+                        Quantity: 60,
+                        ForecastDate:"2019-11-21 12:52:45.290"
+                    }
+                ]
+            }
+
+            var dataWithAntiforgeryToken = $.extend(model, { '__RequestVerificationToken': "" });
+            $.ajax({
+                type: "POST",
+                url: saveDeliveryDetailsURL,
+                data: dataWithAntiforgeryToken,
+                success: function (data) {
+                    if (data != null) {
+                        //alert("success");
+                        $("#successMessageTest").show();
+                    }
+                    else {
+                        alert("Error");
+                        $("#successMessageTest").hide();
+                    }
+                },
+                error: function (errormessage) {
+                    alert(errormessage);
+                }
+            });
+        }
+
+
+        $('#Clear').click(function () {
+            location.reload();
+        });
+    </script>
+</body>
+</html>
+
+

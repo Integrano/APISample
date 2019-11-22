@@ -1,0 +1,56 @@
+C:\Users\administrator.PC120\source\repos\CoreAPISample\CoreAPISample\bin\Debug\netcoreapp2.2\CoreAPISample.API.deps.json
+C:\Users\administrator.PC120\source\repos\CoreAPISample\CoreAPISample\bin\Debug\netcoreapp2.2\CoreAPISample.API.runtimeconfig.json
+C:\Users\administrator.PC120\source\repos\CoreAPISample\CoreAPISample\bin\Debug\netcoreapp2.2\CoreAPISample.API.runtimeconfig.dev.json
+C:\Users\administrator.PC120\source\repos\CoreAPISample\CoreAPISample\bin\Debug\netcoreapp2.2\CoreAPISample.API.dll
+C:\Users\administrator.PC120\source\repos\CoreAPISample\CoreAPISample\bin\Debug\netcoreapp2.2\CoreAPISample.API.pdb
+C:\Users\administrator.PC120\source\repos\CoreAPISample\CoreAPISample\bin\Debug\netcoreapp2.2\CoreAPISample.API.Views.dll
+C:\Users\administrator.PC120\source\repos\CoreAPISample\CoreAPISample\bin\Debug\netcoreapp2.2\CoreAPISample.API.Views.pdb
+C:\Users\administrator.PC120\source\repos\CoreAPISample\CoreAPISample\bin\Debug\netcoreapp2.2\CoreAPISample.Core.dll
+C:\Users\administrator.PC120\source\repos\CoreAPISample\CoreAPISample\bin\Debug\netcoreapp2.2\CoreAPISample.Core.pdb
+C:\Users\administrator.PC120\source\repos\CoreAPISample\CoreAPISample\obj\Debug\netcoreapp2.2\CoreAPISample.API.csprojAssemblyReference.cache
+C:\Users\administrator.PC120\source\repos\CoreAPISample\CoreAPISample\obj\Debug\netcoreapp2.2\CoreAPISample.API.Resources.AppResource.resources
+C:\Users\administrator.PC120\source\repos\CoreAPISample\CoreAPISample\obj\Debug\netcoreapp2.2\CoreAPISample.API.csproj.GenerateResource.cache
+C:\Users\administrator.PC120\source\repos\CoreAPISample\CoreAPISample\obj\Debug\netcoreapp2.2\CoreAPISample.API.csproj.CoreCompileInputs.cache
+C:\Users\administrator.PC120\source\repos\CoreAPISample\CoreAPISample\obj\Debug\netcoreapp2.2\CoreAPISample.API.RazorAssemblyInfo.cache
+C:\Users\administrator.PC120\source\repos\CoreAPISample\CoreAPISample\obj\Debug\netcoreapp2.2\CoreAPISample.API.RazorAssemblyInfo.cs
+C:\Users\administrator.PC120\source\repos\CoreAPISample\CoreAPISample\obj\Debug\netcoreapp2.2\CoreAPISample.API.AssemblyInfoInputs.cache
+C:\Users\administrator.PC120\source\repos\CoreAPISample\CoreAPISample\obj\Debug\netcoreapp2.2\CoreAPISample.API.AssemblyInfo.cs
+C:\Users\administrator.PC120\source\repos\CoreAPISample\CoreAPISample\obj\Debug\netcoreapp2.2\CoreAPISample.API.TagHelpers.input.cache
+C:\Users\administrator.PC120\source\repos\CoreAPISample\CoreAPISample\obj\Debug\netcoreapp2.2\CoreAPISample.API.TagHelpers.output.cache
+C:\Users\administrator.PC120\source\repos\CoreAPISample\CoreAPISample\obj\Debug\netcoreapp2.2\CoreAPISample.API.RazorCoreGenerate.cache
+C:\Users\administrator.PC120\source\repos\CoreAPISample\CoreAPISample\obj\Debug\netcoreapp2.2\Razor\Views\MaterialsClient\Login.g.cshtml.cs
+C:\Users\administrator.PC120\source\repos\CoreAPISample\CoreAPISample\obj\Debug\netcoreapp2.2\Razor\Views\MaterialsClient\SaveDelivery.g.cshtml.cs
+C:\Users\administrator.PC120\source\repos\CoreAPISample\CoreAPISample\obj\Debug\netcoreapp2.2\CoreAPISample.API.RazorTargetAssemblyInfo.cache
+C:\Users\administrator.PC120\source\repos\CoreAPISample\CoreAPISample\obj\Debug\netcoreapp2.2\CoreAPISample.API.RazorTargetAssemblyInfo.cs
+C:\Users\administrator.PC120\source\repos\CoreAPISample\CoreAPISample\obj\Debug\netcoreapp2.2\CoreAPISample.API.Views.pdb
+C:\Users\administrator.PC120\source\repos\CoreAPISample\CoreAPISample\obj\Debug\netcoreapp2.2\CoreAPISample.API.csproj.CopyComplete
+C:\Users\administrator.PC120\source\repos\CoreAPISample\CoreAPISample\obj\Debug\netcoreapp2.2\CoreAPISample.API.dll
+C:\Users\administrator.PC120\source\repos\CoreAPISample\CoreAPISample\obj\Debug\netcoreapp2.2\CoreAPISample.API.pdb
+E:\Punam\New for Passowrd Change\CoreAPISample\CoreAPISample\bin\Debug\netcoreapp2.2\CoreAPISample.API.deps.json
+E:\Punam\New for Passowrd Change\CoreAPISample\CoreAPISample\bin\Debug\netcoreapp2.2\CoreAPISample.API.runtimeconfig.json
+E:\Punam\New for Passowrd Change\CoreAPISample\CoreAPISample\bin\Debug\netcoreapp2.2\CoreAPISample.API.runtimeconfig.dev.json
+E:\Punam\New for Passowrd Change\CoreAPISample\CoreAPISample\bin\Debug\netcoreapp2.2\CoreAPISample.API.dll
+E:\Punam\New for Passowrd Change\CoreAPISample\CoreAPISample\bin\Debug\netcoreapp2.2\CoreAPISample.API.pdb
+E:\Punam\New for Passowrd Change\CoreAPISample\CoreAPISample\bin\Debug\netcoreapp2.2\CoreAPISample.API.Views.dll
+E:\Punam\New for Passowrd Change\CoreAPISample\CoreAPISample\bin\Debug\netcoreapp2.2\CoreAPISample.API.Views.pdb
+E:\Punam\New for Passowrd Change\CoreAPISample\CoreAPISample\bin\Debug\netcoreapp2.2\CoreAPISample.Core.dll
+E:\Punam\New for Passowrd Change\CoreAPISample\CoreAPISample\bin\Debug\netcoreapp2.2\CoreAPISample.Core.pdb
+E:\Punam\New for Passowrd Change\CoreAPISample\CoreAPISample\obj\Debug\netcoreapp2.2\CoreAPISample.API.csprojAssemblyReference.cache
+E:\Punam\New for Passowrd Change\CoreAPISample\CoreAPISample\obj\Debug\netcoreapp2.2\CoreAPISample.API.Resources.AppResource.resources
+E:\Punam\New for Passowrd Change\CoreAPISample\CoreAPISample\obj\Debug\netcoreapp2.2\CoreAPISample.API.csproj.GenerateResource.cache
+E:\Punam\New for Passowrd Change\CoreAPISample\CoreAPISample\obj\Debug\netcoreapp2.2\CoreAPISample.API.csproj.CoreCompileInputs.cache
+E:\Punam\New for Passowrd Change\CoreAPISample\CoreAPISample\obj\Debug\netcoreapp2.2\CoreAPISample.API.RazorAssemblyInfo.cache
+E:\Punam\New for Passowrd Change\CoreAPISample\CoreAPISample\obj\Debug\netcoreapp2.2\CoreAPISample.API.RazorAssemblyInfo.cs
+E:\Punam\New for Passowrd Change\CoreAPISample\CoreAPISample\obj\Debug\netcoreapp2.2\CoreAPISample.API.AssemblyInfoInputs.cache
+E:\Punam\New for Passowrd Change\CoreAPISample\CoreAPISample\obj\Debug\netcoreapp2.2\CoreAPISample.API.AssemblyInfo.cs
+E:\Punam\New for Passowrd Change\CoreAPISample\CoreAPISample\obj\Debug\netcoreapp2.2\CoreAPISample.API.TagHelpers.input.cache
+E:\Punam\New for Passowrd Change\CoreAPISample\CoreAPISample\obj\Debug\netcoreapp2.2\CoreAPISample.API.TagHelpers.output.cache
+E:\Punam\New for Passowrd Change\CoreAPISample\CoreAPISample\obj\Debug\netcoreapp2.2\CoreAPISample.API.RazorCoreGenerate.cache
+E:\Punam\New for Passowrd Change\CoreAPISample\CoreAPISample\obj\Debug\netcoreapp2.2\Razor\Views\MaterialsClient\Login.g.cshtml.cs
+E:\Punam\New for Passowrd Change\CoreAPISample\CoreAPISample\obj\Debug\netcoreapp2.2\Razor\Views\MaterialsClient\SaveDelivery.g.cshtml.cs
+E:\Punam\New for Passowrd Change\CoreAPISample\CoreAPISample\obj\Debug\netcoreapp2.2\CoreAPISample.API.RazorTargetAssemblyInfo.cache
+E:\Punam\New for Passowrd Change\CoreAPISample\CoreAPISample\obj\Debug\netcoreapp2.2\CoreAPISample.API.RazorTargetAssemblyInfo.cs
+E:\Punam\New for Passowrd Change\CoreAPISample\CoreAPISample\obj\Debug\netcoreapp2.2\CoreAPISample.API.Views.pdb
+E:\Punam\New for Passowrd Change\CoreAPISample\CoreAPISample\obj\Debug\netcoreapp2.2\CoreAPISample.API.csproj.CopyComplete
+E:\Punam\New for Passowrd Change\CoreAPISample\CoreAPISample\obj\Debug\netcoreapp2.2\CoreAPISample.API.dll
+E:\Punam\New for Passowrd Change\CoreAPISample\CoreAPISample\obj\Debug\netcoreapp2.2\CoreAPISample.API.pdb

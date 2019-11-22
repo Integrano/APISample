@@ -1,0 +1,17 @@
+/* TimeEntry styles */
+.timeEntry_control {
+    vertical-align: middle;
+    margin-left: 2px;
+    background: url("/images/spinnerDefault.png") no-repeat 0px 0px !important;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-left: -26px;
+}
+#IncidentTime {
+    display:inline-block;
+}
+.d-block {
+    display:block;
+}
+

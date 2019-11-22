@@ -1,0 +1,8 @@
+C:\Users\administrator.PC120\source\repos\CoreAPISample\CoreAPISample.Core\bin\Debug\netcoreapp2.2\CoreAPISample.Core.deps.json
+C:\Users\administrator.PC120\source\repos\CoreAPISample\CoreAPISample.Core\bin\Debug\netcoreapp2.2\CoreAPISample.Core.dll
+C:\Users\administrator.PC120\source\repos\CoreAPISample\CoreAPISample.Core\bin\Debug\netcoreapp2.2\CoreAPISample.Core.pdb
+C:\Users\administrator.PC120\source\repos\CoreAPISample\CoreAPISample.Core\obj\Debug\netcoreapp2.2\CoreAPISample.Core.csproj.CoreCompileInputs.cache
+C:\Users\administrator.PC120\source\repos\CoreAPISample\CoreAPISample.Core\obj\Debug\netcoreapp2.2\CoreAPISample.Core.AssemblyInfoInputs.cache
+C:\Users\administrator.PC120\source\repos\CoreAPISample\CoreAPISample.Core\obj\Debug\netcoreapp2.2\CoreAPISample.Core.AssemblyInfo.cs
+C:\Users\administrator.PC120\source\repos\CoreAPISample\CoreAPISample.Core\obj\Debug\netcoreapp2.2\CoreAPISample.Core.dll
+C:\Users\administrator.PC120\source\repos\CoreAPISample\CoreAPISample.Core\obj\Debug\netcoreapp2.2\CoreAPISample.Core.pdb
